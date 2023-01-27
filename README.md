@@ -8,11 +8,12 @@ caranya
 2. Jalankan docker daemon dengan klik aplikasi docker yg sudah terinstall
 3. Pada terminal ketikan command `docker run --name postgresql -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -p 5432:5432 postgres`
 4. kemudian untuk cek Host Postgresqlnya, ketik command `docker ps` kemudian akan muncul informasi berikut.
+<br>
 
 ![host](img/host.png](https://github.com/abdurrahmanshidiq/batch_processing/blob/master/img/host.png "host")<br>
 
 5. Buka dbeaver dan masukkan Host, Port, Database, User, Password seperti gambar berikut.
-
+<br>
 ![connect db](https://github.com/abdurrahmanshidiq/batch_processing/blob/master/img/connect_db.png "connect db")<br>
 
 
